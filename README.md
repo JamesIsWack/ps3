@@ -52,6 +52,9 @@ If you want to customize configuration, you can download file config/ps3, edit i
 
 `./installer.sh --device /dev/ps3dd --custom-config ps3_file_path --verbose`
 
+# To install
+Boot the livecd and download this repo onto /mnt/ps3dd1 (mount /dev/ps3dd1 here first) and execute `./ps3-main/installer/installer.sh --directory . --config PS3 --verbose`
+
 To use distcc during installation, use --distcc flag:
 
 `./installer.sh --device /dev/ps3dd --config PS3 --distcc "192.168.0.50"`
